@@ -1,0 +1,41 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "objstring&Sequence_1",
+        "obj&Sequence_1",
+        "op2&Sequence_1",
+        "op1&Sequence_1",
+        "output2&Sequence_1",
+        "output1&Sequence_1",
+        "connection&Sequence_1",
+        "mails&Sequence_1",
+        "DatenTime&Sequence_1",
+        "dbtime&Sequence_1",
+        "comparedate1&Sequence_1",
+        "comparedate2&Sequence_1",
+        "ID1&Sequence_1",
+        "found&Sequence_1",
+        "test&Sequence_1",
+        "ID2&Sequence_1",
+        "wa1&Sequence_1",
+        "wa2&Sequence_1",
+        "wa3&Sequence_1",
+        "donorsfound&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
