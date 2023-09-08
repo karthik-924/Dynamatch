@@ -28,7 +28,7 @@ const RLogin = () => {
       Age: 0,
       Type: "",
       Reason: "",
-      Date: "",
+      DeadlineDate: "",
     },
 
     validate: {
@@ -50,6 +50,7 @@ const RLogin = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(form.values)
     fetch("http://localhost:4000/addRecipient", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -131,13 +132,14 @@ const RLogin = () => {
       />
 
       <DateTimePicker
+        
         label="Deadline for request"
         placeholder="Pick date and time"
         maw={400}
         mx="auto"
         withAsterisk
         mt="md"
-        {...form.getInputProps("Date")}
+        {...form.getInputProps("DeadlineDate")}
       />
 
       <Textarea
