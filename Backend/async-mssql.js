@@ -2,7 +2,7 @@ const sql = require('mssql');
 
 var config = {
     user: 'dynamatch',
-    password: 'Dynamatch@123',
+    password: 'Dynamatch@1234',
     server: 'localhost',
     database: 'uipath',
     port: 1433,
@@ -16,13 +16,13 @@ sql.on('error', err => {
 })
 
 const getDBUsersAsyncFunction = async () => {
-    const query = "INSERT INTO Donors (id, Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, FatalHealth) VALUES (1, 'John Doe', 30, 1234567890, 'Male', 'A+', 'john@example.com', '123 Main St, City', 'Type A', 'Medical Checkup');"
+    const query = "INSERT INTO Donors (Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, FatalHealth) VALUES ( 'John Doe', 30, 1234567890, 'Male', 'A+', 'john@example.com', '123 Main St, City', 'Type A', 'Medical Checkup');"
     try {
         console.log("Trying to connect to database");
         let dbConn = await sql.connect(config);
         console.log("Connected to database");
         var request = new sql.Request(dbConn);
-        request.query("Select * from Donors", function (err, recordset) {
+        request.query(query, function (err, recordset) {
             if (err) {
                 console.log(err);
                 dbConn.close();

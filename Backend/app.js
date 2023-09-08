@@ -1,3 +1,4 @@
+
 const express = require('express');
 const app = express();
 const port = 4000;
@@ -7,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 var config = {
     user: 'dynamatch',
-    password: 'Dynamatch@123',
+    password: 'Dynamatch@1234',
     server: 'localhost',
     database: 'uipath',
     port: 1433,
@@ -169,8 +170,15 @@ app.get('/getRecipients', async (req, res) => {
 })
 
 app.post('/addRecipient', async (req, res) => {
-    var { id, Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, Date } = req.body;
-    var query = `INSERT INTO Recipients (Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, Date) VALUES ('${Name}', ${Age}, ${Phoneno}, '${Gender}', '${Bloodgroup}', '${Email}', '${Address}', '${Type}', '${Reason}', '${Date}');`
+    var { id, Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, DeadlineDate,Messagesent,Noofdonorsfound } = req.body;
+    console.log(DeadlineDate)
+    const newDate1=DeadlineDate.split("T")[0]
+    const newDate2=new Date(newDate1)
+    const newDate3=`${newDate2.getMonth()<10?"0".concat(newDate2.getMonth()):newDate2.getMonth()}/${newDate2.getDate()<10?"0".concat(newDate2.getDate()):newDate2.getDate()}/${newDate2.getFullYear()}`
+    //const newTime=DeadlineDate.split("T")[1].substring(0,8)
+    
+    var query = `INSERT INTO Recipients (Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, Date ,Messagesent,Noofdonorsfound) VALUES ('${Name}', ${Age}, ${Phoneno}, '${Gender}', '${Bloodgroup}', '${Email}', '${Address}', '${Type}', '${Reason}', '${newDate3}', 'No', 0)`;
+    console.log(query);
     try {
         console.log("Trying to connect to database");
             let dbConn = await sql.connect(config);
@@ -182,6 +190,7 @@ app.post('/addRecipient', async (req, res) => {
                     dbConn.close();
                 }
                 else {
+                    res.status(200);
                     res.send({success: true, message: "Recipient added successfully"});
                     dbConn.close();
                     res.send(recordset);
