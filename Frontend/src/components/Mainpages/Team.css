@@ -1,6 +1,7 @@
 .btn-shine{
+  width:250px;
   background: linear-gradient(to right, #4d4d4d 0, white 30%, #4d4d4d 50%);
-  background-position: 0;
+  background-position: -120px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 2s infinite;
@@ -10,14 +11,11 @@
   white-space: nowrap;
 }
     
-@keyframes shine{
-  0%{
-    background-position: 0
+@keyframes shine {
+  0% {
+    background-position: -120px; /* Start off-screen to the left */
   }
-  60%{
-    background-position: 120px;
-    }
-    100%{
-        background-position: 120px
-    }
+  100% {
+    background-position: calc(100% + 150px); /* Move completely off-screen to the right */
+  }
 }

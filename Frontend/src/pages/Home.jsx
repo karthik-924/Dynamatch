@@ -13,6 +13,8 @@ import Pages from "../components/Mainpages/Pages";
 import Facts from "../components/Mainpages/Facts";
 import Gallery from "../components/Mainpages/Gallery";
 import Team from "../components/Mainpages/Team";
+import Donation from "../components/Mainpages/Donation";
+import Request from "../components/Mainpages/Request";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -92,6 +94,10 @@ const Home = () => {
                 <Gallery />
               ) : active === "team" ? (
                 <Team />
+              ) : active === "donate" ? (
+                <Donation />
+              ) : active === "request" ? (
+                <Request />
               ) : (
                 <HomeText />
               )}

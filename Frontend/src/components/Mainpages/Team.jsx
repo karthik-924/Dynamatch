@@ -41,7 +41,12 @@ const Team = () => {
           align="start"
           loop
           dragFree
-                  classNames={classes}
+          classNames={classes}
+          breakpoints={[
+            { maxWidth: 'lg', slideSize: '24.5%' },
+            { maxWidth: 'md', slideSize: '33%' },
+            { maxWidth: 'sm', slideSize: '50%' },
+          ]}
         >
           {convenors.map((convenor, index) => (
             <Carousel.Slide key={index}>
@@ -65,6 +70,11 @@ const Team = () => {
           loop
           dragFree
           classNames={classes}
+          breakpoints={[
+            { maxWidth: 'lg', slideSize: '24.5%' },
+            { maxWidth: 'md', slideSize: '33%' },
+            { maxWidth: 'sm', slideSize: '50%' },
+          ]}
         >
           {WebTeam.map((convenor, index) => (
             <Carousel.Slide key={index}>

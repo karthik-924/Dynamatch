@@ -31,6 +31,10 @@ const Gallery = () => {
             slidesToScroll={1}
             dragFree
             withControls
+            breakpoints={[
+              { maxWidth: 'md', slideSize: '50%' },
+              { maxWidth: 'sm', slideSize: '100%', slideGap: 0 },
+            ]}
           >
             <Carousel.Slide>
               <img src={Gallery1} className="w-full h-full" alt="Gallery" />

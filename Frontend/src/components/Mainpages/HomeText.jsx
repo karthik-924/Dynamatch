@@ -15,7 +15,7 @@ const HomeText = () => {
         />
       </div>
       <div className="w-full h-full justify-center items-center flex flex-col absolute top-0 left-0">
-        <p className="btn-shine max-[500px]:text-7xl">Dynamatch</p>
+        <p className="main-btn-shine max-[500px]:text-7xl">Dynamatch</p>
         <p className="text-gray-400 tracking-widest font-sans text-2xl m-0">
           Life saver
         </p>
