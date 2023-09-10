@@ -10,8 +10,9 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\azure.identity\\1.3.0\\lib/netstandard2.0/Azure.Identity.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.data.sqlclient\\4.1.0\\runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.48.0\\lib/net6.0/Microsoft.Identity.Client.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
@@ -62,56 +63,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.excel.activities\\2.22.0-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Form.Activities",
-        "Version": "1.9.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\castle.core\\4.4.0\\lib/netstandard1.5/Castle.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.Scripting.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\reflectionmagic\\4.1.0\\lib/netstandard2.0/ReflectionMagic.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.BrowserSubprocess.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.BrowserSubprocess.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.Core.Runtime.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.Wpf.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/CefSharp.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/Ijwhost.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/UiPath.CefSharpBundle.NetCore.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/chrome_elf.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/d3dcompiler_47.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/libEGL.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/libGLESv2.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/libcef.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/msvcp140.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/swiftshader/libEGL.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/swiftshader/libGLESv2.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/vcruntime140.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/vcruntime140_1.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/vk_swiftshader.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.9.0\\lib/net6.0-windows7.0/vulkan-1.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib/net5.0-windows7.0/UiPath.Callout.Activity.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib/net5.0-windows7.0/UiPath.Callout.Activity.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib/net5.0-windows7.0/UiPath.Callout.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib/net5.0-windows7.0/NamedPipeWrapper.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.ActivityLibrary.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.Host.Local.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib/net5.0-windows7.0/UiPath.OutOfProcessUi.Common.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.9.1\\lib/net5.0-windows7.0/UiPath.Form.ActivityLibrary.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1"
     },
     {
       "Package": {
@@ -209,10 +160,10 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.intelligentocr.activities\\6.12.0-preview\\lib/net6.0-windows7.0/UiPath.SmartData.ValidationStation.ValueParsing.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.intelligentocr.activities\\6.12.0-preview\\lib/net6.0-windows7.0/UiPath.SmartData.ValidationStation.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.intelligentocr.activities\\6.12.0-preview\\lib/net6.0-windows7.0/UiPath.SmartData.WPF.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\lib/netstandard2.0/Numsense.dll"
@@ -239,7 +190,8 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.48.0\\lib/net6.0/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
@@ -282,7 +234,7 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.22.0-preview\\lib/net6.0/UiPath.DocumentProcessing.Contracts.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.6.2\\lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.pdf.activities\\3.15.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Activities.Design.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.pdf.activities\\3.15.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Activities.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.pdf.activities\\3.15.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Telemetry.dll",
@@ -364,7 +316,7 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.6.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.system.activities\\23.8.1-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.system.activities\\23.8.1-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
@@ -386,7 +338,7 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.6.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.testing.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Api.dll",
@@ -418,52 +370,6 @@
     },
     {
       "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "23.6.2-preview"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\nlog\\4.5.11\\lib/netstandard2.0/NLog.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.6.60.46509-preview\\lib/net6.0-windows7.0/UiPath.Interop.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.6.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview"
-    },
-    {
-      "Package": {
         "Id": "UiPath.Word.Activities",
         "Version": "1.18.0-preview"
       },
@@ -479,48 +385,77 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\xceed.words.net\\2.0.21359.11160\\lib/net5.0/Xceed.Words.NET5.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.word.activities\\1.18.0-preview"
-    }
-  ],
-  "Conflicts": [
-    {
-      "AffectedPackages": [
-        {
-          "Id": "Microsoft.CodeAnalysis.CSharp.Scripting",
-          "Version": "3.8.0"
-        },
-        {
-          "Id": "UiPath.System.Activities",
-          "Version": "23.8.1-preview"
-        }
-      ],
-      "CausingPackage": {
-        "Id": "Microsoft.CodeAnalysis.Common",
-        "Version": "4.5.0-2.22527.10"
-      },
-      "IsCycle": false,
-      "IsDowngrade": false,
-      "IsConflict": true
     },
     {
-      "AffectedPackages": [
-        {
-          "Id": "Microsoft.CodeAnalysis.CSharp.Scripting",
-          "Version": "3.8.0"
-        },
-        {
-          "Id": "UiPath.System.Activities",
-          "Version": "23.8.1-preview"
-        }
-      ],
-      "CausingPackage": {
-        "Id": "Microsoft.CodeAnalysis.CSharp",
-        "Version": "4.5.0-2.22527.10"
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "23.8.0-preview"
       },
-      "IsCycle": false,
-      "IsDowngrade": false,
-      "IsConflict": true
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\nlog\\4.5.11\\lib/netstandard2.0/NLog.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.8.65.14084-preview\\lib/net6.0-windows7.0/UiPath.Interop.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.CV.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib/net6.0-windows7.0/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftDynamics.Activities",
+        "Version": "1.2.2-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\dotnetprojects.wpftoolkit.input\\6.0.79\\lib/netcoreapp3.0/DotNetProjects.Input.Toolkit.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.48.0\\lib/net6.0/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.broker\\4.48.0-preview\\lib/netstandard2.0/Microsoft.Identity.Client.Broker.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.nativeinterop\\0.13.0\\lib/netstandard2.0/Microsoft.Identity.Client.NativeInterop.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\mimemapping\\1.0.1.37\\lib/netstandard2.1/MimeMapping.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftDynamics.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftDynamics.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftDynamics.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview"
     }
   ],
+  "Conflicts": [],
   "ResolvedDependencies": {
     "AutoMapper": {
       "Id": "AutoMapper",
@@ -622,52 +557,6 @@
       "Version": "2.4.649",
       "Dependencies": []
     },
-    "Castle.Core": {
-      "Id": "Castle.Core",
-      "Version": "4.4.0",
-      "Dependencies": [
-        {
-          "Item1": "NETStandard.Library",
-          "Item2": "[1.6.1, )"
-        },
-        {
-          "Item1": "System.Collections.Specialized",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ComponentModel",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ComponentModel.TypeConverter",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.TraceSource",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Dynamic.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Emit",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.TypeExtensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Xml.XmlDocument",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "ClosedXML": {
       "Id": "ClosedXML",
       "Version": "0.95.4",
@@ -709,6 +598,11 @@
           "Item2": "[4.7.0, )"
         }
       ]
+    },
+    "DotNetProjects.WpfToolkit.Input": {
+      "Id": "DotNetProjects.WpfToolkit.Input",
+      "Version": "6.0.79",
+      "Dependencies": []
     },
     "ExcelNumberFormat": {
       "Id": "ExcelNumberFormat",
@@ -837,6 +731,20 @@
         {
           "Item1": "Newtonsoft.Json",
           "Item2": "[11.0.2, )"
+        }
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client": {
+      "Id": "Microsoft.AspNet.WebApi.Client",
+      "Version": "5.2.7",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.1, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json.Bson",
+          "Item2": "[1.0.1, )"
         }
       ]
     },
@@ -1033,38 +941,6 @@
         {
           "Item1": "Microsoft.CodeAnalysis.Common",
           "Item2": "[4.5.0-2.22527.10, 4.5.0-2.22527.10]"
-        }
-      ]
-    },
-    "Microsoft.CodeAnalysis.CSharp.Scripting": {
-      "Id": "Microsoft.CodeAnalysis.CSharp.Scripting",
-      "Version": "3.8.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.CodeAnalysis.Common",
-          "Item2": "[3.8.0, 3.8.0]"
-        },
-        {
-          "Item1": "Microsoft.CodeAnalysis.CSharp",
-          "Item2": "[3.8.0, 3.8.0]"
-        },
-        {
-          "Item1": "Microsoft.CodeAnalysis.Scripting.Common",
-          "Item2": "[3.8.0, 3.8.0]"
-        },
-        {
-          "Item1": "Microsoft.CSharp",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "Microsoft.CodeAnalysis.Scripting.Common": {
-      "Id": "Microsoft.CodeAnalysis.Scripting.Common",
-      "Version": "3.8.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.CodeAnalysis.Common",
-          "Item2": "[3.8.0, 3.8.0]"
         }
       ]
     },
@@ -1324,8 +1200,27 @@
     },
     "Microsoft.Identity.Client": {
       "Id": "Microsoft.Identity.Client",
-      "Version": "4.35.1",
-      "Dependencies": []
+      "Version": "4.48.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Abstractions",
+          "Item2": "[6.22.0, )"
+        }
+      ]
+    },
+    "Microsoft.Identity.Client.Broker": {
+      "Id": "Microsoft.Identity.Client.Broker",
+      "Version": "4.48.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Identity.Client",
+          "Item2": "[4.48.0, )"
+        },
+        {
+          "Item1": "Microsoft.Identity.Client.NativeInterop",
+          "Item2": "[0.13.0, )"
+        }
+      ]
     },
     "Microsoft.Identity.Client.Extensions.Msal": {
       "Id": "Microsoft.Identity.Client.Extensions.Msal",
@@ -1340,6 +1235,16 @@
           "Item2": "[4.5.0, )"
         }
       ]
+    },
+    "Microsoft.Identity.Client.NativeInterop": {
+      "Id": "Microsoft.Identity.Client.NativeInterop",
+      "Version": "0.13.0",
+      "Dependencies": []
+    },
+    "Microsoft.IdentityModel.Abstractions": {
+      "Id": "Microsoft.IdentityModel.Abstractions",
+      "Version": "6.22.0",
+      "Dependencies": []
     },
     "Microsoft.IdentityModel.JsonWebTokens": {
       "Id": "Microsoft.IdentityModel.JsonWebTokens",
@@ -1969,6 +1874,11 @@
         }
       ]
     },
+    "MimeMapping": {
+      "Id": "MimeMapping",
+      "Version": "1.0.1.37",
+      "Dependencies": []
+    },
     "Namotion.Reflection": {
       "Id": "Namotion.Reflection",
       "Version": "1.0.14",
@@ -2166,6 +2076,20 @@
       "Version": "13.0.1",
       "Dependencies": []
     },
+    "Newtonsoft.Json.Bson": {
+      "Id": "Newtonsoft.Json.Bson",
+      "Version": "1.0.1",
+      "Dependencies": [
+        {
+          "Item1": "NETStandard.Library",
+          "Item2": "[1.6.1, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.1, )"
+        }
+      ]
+    },
     "NJsonSchema": {
       "Id": "NJsonSchema",
       "Version": "10.2.2",
@@ -2243,16 +2167,6 @@
       "Id": "Portable.BouncyCastle",
       "Version": "1.9.0",
       "Dependencies": []
-    },
-    "ReflectionMagic": {
-      "Id": "ReflectionMagic",
-      "Version": "4.1.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.CSharp",
-          "Item2": "[4.4.1, )"
-        }
-      ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
       "Id": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
@@ -2586,80 +2500,6 @@
         }
       ]
     },
-    "System.Collections.NonGeneric": {
-      "Id": "System.Collections.NonGeneric",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Diagnostics.Debug",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.Collections.Specialized": {
-      "Id": "System.Collections.Specialized",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections.NonGeneric",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.ComponentModel": {
-      "Id": "System.ComponentModel",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "System.ComponentModel.Annotations": {
       "Id": "System.ComponentModel.Annotations",
       "Version": "5.0.0",
@@ -2681,90 +2521,6 @@
         {
           "Item1": "System.Reflection.Context",
           "Item2": "[5.0.0, )"
-        }
-      ]
-    },
-    "System.ComponentModel.Primitives": {
-      "Id": "System.ComponentModel.Primitives",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.ComponentModel",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.ComponentModel.TypeConverter": {
-      "Id": "System.ComponentModel.TypeConverter",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Collections.NonGeneric",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Collections.Specialized",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ComponentModel",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ComponentModel.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Linq",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.TypeExtensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
         }
       ]
     },
@@ -2944,48 +2700,6 @@
         }
       ]
     },
-    "System.Diagnostics.TraceSource": {
-      "Id": "System.Diagnostics.TraceSource",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.NETCore.Platforms",
-          "Item2": "[1.1.0, )"
-        },
-        {
-          "Item1": "runtime.native.System",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Debug",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "System.Diagnostics.Tracing": {
       "Id": "System.Diagnostics.Tracing",
       "Version": "4.3.0",
@@ -3098,68 +2812,6 @@
         },
         {
           "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
-    "System.Dynamic.Runtime": {
-      "Id": "System.Dynamic.Runtime",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Debug",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Linq",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Linq.Expressions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.ObjectModel",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Emit",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Emit.ILGeneration",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.Primitives",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Reflection.TypeExtensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
           "Item2": "[4.3.0, )"
         }
       ]
@@ -5061,52 +4713,6 @@
         }
       ]
     },
-    "System.Xml.XmlDocument": {
-      "Id": "System.Xml.XmlDocument",
-      "Version": "4.3.0",
-      "Dependencies": [
-        {
-          "Item1": "System.Collections",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Diagnostics.Debug",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Globalization",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.IO",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Resources.ResourceManager",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Runtime.Extensions",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Text.Encoding",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Threading",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "System.Xml.ReaderWriter",
-          "Item2": "[4.3.0, )"
-        }
-      ]
-    },
     "TinyCsvParser": {
       "Id": "TinyCsvParser",
       "Version": "2.5.2",
@@ -5114,7 +4720,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "23.6.60.46509-preview",
+      "Version": "23.8.65.14084-preview",
       "Dependencies": []
     },
     "UiPath.Activities.RuntimeGovernance": {
@@ -5148,7 +4754,7 @@
     },
     "UiPath.CodedWorkflows": {
       "Id": "UiPath.CodedWorkflows",
-      "Version": "23.6.0-preview",
+      "Version": "23.8.0-preview",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -5304,92 +4910,6 @@
         {
           "Item1": "UiPath.Telemetry.Client",
           "Item2": "[1.5.3, )"
-        }
-      ]
-    },
-    "UiPath.Form.Activities": {
-      "Id": "UiPath.Form.Activities",
-      "Version": "1.9.1",
-      "Dependencies": [
-        {
-          "Item1": "Castle.Core",
-          "Item2": "[4.4.0, )"
-        },
-        {
-          "Item1": "Microsoft.CodeAnalysis.CSharp.Scripting",
-          "Item2": "[3.8.0, )"
-        },
-        {
-          "Item1": "ReflectionMagic",
-          "Item2": "[4.1.0, )"
-        },
-        {
-          "Item1": "System.ComponentModel.Composition",
-          "Item2": "[4.7.0, )"
-        },
-        {
-          "Item1": "System.IO.Abstractions",
-          "Item2": "[3.0.10, )"
-        },
-        {
-          "Item1": "System.Resources.Extensions",
-          "Item2": "[5.0.0, )"
-        },
-        {
-          "Item1": "System.Runtime.CompilerServices.Unsafe",
-          "Item2": "[4.7.1, )"
-        },
-        {
-          "Item1": "System.Threading.Tasks.Extensions",
-          "Item2": "[4.5.4, )"
-        },
-        {
-          "Item1": "UiPath.CefSharpBundle.NetCore",
-          "Item2": "[1.6.0, )"
-        },
-        {
-          "Item1": "UiPath.FormActivityLibrary",
-          "Item2": "[1.9.1, )"
-        },
-        {
-          "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.3.18, )"
-        }
-      ]
-    },
-    "UiPath.FormActivityLibrary": {
-      "Id": "UiPath.FormActivityLibrary",
-      "Version": "1.9.1",
-      "Dependencies": [
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "System.Runtime.CompilerServices.Unsafe",
-          "Item2": "[4.7.1, )"
-        },
-        {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.3.0, )"
-        },
-        {
-          "Item1": "UiPath.CefSharpBundle.NetCore",
-          "Item2": "[1.6.0, )"
-        },
-        {
-          "Item1": "UiPath.FormActivityLibrary.Contracts",
-          "Item2": "[1.9.1, )"
-        }
-      ]
-    },
-    "UiPath.FormActivityLibrary.Contracts": {
-      "Id": "UiPath.FormActivityLibrary.Contracts",
-      "Version": "1.9.1",
-      "Dependencies": [
-        {
-          "Item1": "System.Resources.Extensions",
-          "Item2": "[5.0.0, )"
         }
       ]
     },
@@ -5646,13 +5166,43 @@
         }
       ]
     },
+    "UiPath.MicrosoftDynamics.Activities": {
+      "Id": "UiPath.MicrosoftDynamics.Activities",
+      "Version": "1.2.2-preview",
+      "Dependencies": [
+        {
+          "Item1": "DotNetProjects.WpfToolkit.Input",
+          "Item2": "[6.0.79, )"
+        },
+        {
+          "Item1": "Microsoft.AspNet.WebApi.Client",
+          "Item2": "[5.2.7, )"
+        },
+        {
+          "Item1": "Microsoft.Identity.Client",
+          "Item2": "[4.48.0, )"
+        },
+        {
+          "Item1": "Microsoft.Identity.Client.Broker",
+          "Item2": "[4.48.0-preview, )"
+        },
+        {
+          "Item1": "MimeMapping",
+          "Item2": "[1.0.1.37, )"
+        }
+      ]
+    },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
-      "Version": "3.16.1-preview",
+      "Version": "3.17.0-preview",
       "Dependencies": [
         {
           "Item1": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
           "Item2": "[7.0.1, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.24, )"
         },
         {
           "Item1": "Newtonsoft.Json",
@@ -5671,10 +5221,6 @@
           "Item2": "[6.0.0, )"
         },
         {
-          "Item1": "System.Configuration.ConfigurationManager",
-          "Item2": "[5.0.0, )"
-        },
-        {
           "Item1": "System.Drawing.Common",
           "Item2": "[5.0.3, )"
         },
@@ -5684,7 +5230,7 @@
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.14.0, )"
+          "Item2": "[2.15.0-preview, )"
         },
         {
           "Item1": "UiPath.Platform",
@@ -5694,11 +5240,11 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.14.0",
+      "Version": "2.15.0-preview",
       "Dependencies": [
         {
           "Item1": "System.Drawing.Common",
-          "Item2": "[5.0.2, )"
+          "Item2": "[5.0.3, )"
         }
       ]
     },
@@ -5966,37 +5512,37 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "23.6.2-preview",
+      "Version": "23.8.0-preview",
       "Dependencies": [
         {
           "Item1": "UiPath.UIAutomation.Activities.Runtime",
-          "Item2": "[23.6.2-preview, 23.6.2-preview]"
+          "Item2": "[23.8.0-preview, 23.8.0-preview]"
         }
       ]
     },
     "UiPath.UIAutomation.Activities.Runtime": {
       "Id": "UiPath.UIAutomation.Activities.Runtime",
-      "Version": "23.6.2-preview",
+      "Version": "23.8.0-preview",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[23.6.60.46509-preview, 23.6.60.46509-preview]"
+          "Item2": "[23.8.65.14084-preview, 23.8.65.14084-preview]"
         },
         {
           "Item1": "UiPath.CodedWorkflows",
-          "Item2": "[23.6.0-preview, )"
+          "Item2": "[23.8.0-preview, )"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[3.10.1, )"
+          "Item2": "[3.11.0-preview, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.14.0, )"
+          "Item2": "[2.15.0-preview, )"
         },
         {
           "Item1": "UiPath.OCR.Activities",
-          "Item2": "[3.16.1-preview, )"
+          "Item2": "[3.17.0-preview, )"
         },
         {
           "Item1": "UiPath.Platform",
@@ -6026,11 +5572,11 @@
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "3.10.1",
+      "Version": "3.11.0-preview",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.14.0, )"
+          "Item2": "[2.15.0-preview, )"
         }
       ]
     },
@@ -6154,16 +5700,6 @@
     },
     {
       "Package": {
-        "Id": "Castle.Core",
-        "Version": "4.4.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\castle.core\\4.4.0\\lib\\netstandard1.5\\Castle.Core.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\castle.core\\4.4.0"
-    },
-    {
-      "Package": {
         "Id": "ClosedXML",
         "Version": "0.95.4"
       },
@@ -6191,6 +5727,16 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib\\netstandard2.0\\DocumentFormat.OpenXml.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\documentformat.openxml\\2.12.1"
+    },
+    {
+      "Package": {
+        "Id": "DotNetProjects.WpfToolkit.Input",
+        "Version": "6.0.79"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\dotnetprojects.wpftoolkit.input\\6.0.79\\lib\\netcoreapp3.0\\DotNetProjects.Input.Toolkit.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\dotnetprojects.wpftoolkit.input\\6.0.79"
     },
     {
       "Package": {
@@ -6325,6 +5871,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.AspNet.WebApi.Client",
+        "Version": "5.2.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\lib\\netstandard2.0\\System.Net.Http.Formatting.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.AspNetCore.Connections.Abstractions",
         "Version": "3.1.6"
       },
@@ -6450,26 +6006,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.CodeAnalysis.CSharp.Scripting",
-        "Version": "3.8.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.Scripting.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.8.0"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.CodeAnalysis.Scripting.Common",
-        "Version": "3.8.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.Scripting.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.8.0"
     },
     {
       "Package": {
@@ -6652,12 +6188,22 @@
     {
       "Package": {
         "Id": "Microsoft.Identity.Client",
-        "Version": "4.35.1"
+        "Version": "4.48.0"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib\\netcoreapp2.1\\Microsoft.Identity.Client.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.48.0\\lib\\net6.0\\Microsoft.Identity.Client.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.35.1"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client\\4.48.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Identity.Client.Broker",
+        "Version": "4.48.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.broker\\4.48.0-preview\\lib\\netstandard2.0\\Microsoft.Identity.Client.Broker.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.broker\\4.48.0-preview"
     },
     {
       "Package": {
@@ -6668,6 +6214,26 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\lib\\netcoreapp2.1\\Microsoft.Identity.Client.Extensions.Msal.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Identity.Client.NativeInterop",
+        "Version": "0.13.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.nativeinterop\\0.13.0\\lib\\netstandard2.0\\Microsoft.Identity.Client.NativeInterop.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identity.client.nativeinterop\\0.13.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Abstractions",
+        "Version": "6.22.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\lib\\net6.0\\Microsoft.IdentityModel.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0"
     },
     {
       "Package": {
@@ -7022,6 +6588,16 @@
     },
     {
       "Package": {
+        "Id": "MimeMapping",
+        "Version": "1.0.1.37"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\mimemapping\\1.0.1.37\\lib\\netstandard2.1\\MimeMapping.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\mimemapping\\1.0.1.37"
+    },
+    {
+      "Package": {
         "Id": "Namotion.Reflection",
         "Version": "1.0.14"
       },
@@ -7047,6 +6623,16 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json\\13.0.1"
+    },
+    {
+      "Package": {
+        "Id": "Newtonsoft.Json.Bson",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\lib\\netstandard1.3\\Newtonsoft.Json.Bson.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1"
     },
     {
       "Package": {
@@ -7120,16 +6706,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib\\netstandard2.0\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\portable.bouncycastle\\1.9.0"
-    },
-    {
-      "Package": {
-        "Id": "ReflectionMagic",
-        "Version": "4.1.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\reflectionmagic\\4.1.0\\lib\\netstandard2.0\\ReflectionMagic.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\reflectionmagic\\4.1.0"
     },
     {
       "Package": {
@@ -7679,36 +7255,6 @@
     },
     {
       "Package": {
-        "Id": "System.Collections.NonGeneric",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\lib\\netstandard1.3\\System.Collections.NonGeneric.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.collections.nongeneric\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Collections.Specialized",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.collections.specialized\\4.3.0\\lib\\netstandard1.3\\System.Collections.Specialized.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.collections.specialized\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.ComponentModel",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel\\4.3.0\\lib\\netstandard1.3\\System.ComponentModel.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.ComponentModel.Annotations",
         "Version": "5.0.0"
       },
@@ -7736,26 +7282,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib\\netstandard2.1\\System.ComponentModel.Composition.Registration.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0"
-    },
-    {
-      "Package": {
-        "Id": "System.ComponentModel.Primitives",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\lib\\netstandard1.0\\System.ComponentModel.Primitives.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.ComponentModel.TypeConverter",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\lib\\netstandard1.5\\System.ComponentModel.TypeConverter.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0"
     },
     {
       "Package": {
@@ -7863,16 +7389,6 @@
     },
     {
       "Package": {
-        "Id": "System.Diagnostics.TraceSource",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\runtimes\\win\\lib\\netstandard1.3\\System.Diagnostics.TraceSource.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "System.Diagnostics.Tracing",
         "Version": "4.3.0"
       },
@@ -7928,16 +7444,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\lib\\netstandard1.1\\System.Drawing.Primitives.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.drawing.primitives\\4.3.0"
-    },
-    {
-      "Package": {
-        "Id": "System.Dynamic.Runtime",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\lib\\netstandard1.3\\System.Dynamic.Runtime.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.dynamic.runtime\\4.3.0"
     },
     {
       "Package": {
@@ -8814,16 +8320,6 @@
     },
     {
       "Package": {
-        "Id": "System.Xml.XmlDocument",
-        "Version": "4.3.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\lib\\netstandard1.3\\System.Xml.XmlDocument.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\system.xml.xmldocument\\4.3.0"
-    },
-    {
-      "Package": {
         "Id": "TinyCsvParser",
         "Version": "2.5.2"
       },
@@ -8835,12 +8331,12 @@
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "23.6.60.46509-preview"
+        "Version": "23.8.65.14084-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.6.60.46509-preview\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.8.65.14084-preview\\lib\\net6.0-windows7.0\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.6.60.46509-preview"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath\\23.8.65.14084-preview"
     },
     {
       "Package": {
@@ -8878,12 +8374,12 @@
     {
       "Package": {
         "Id": "UiPath.CodedWorkflows",
-        "Version": "23.6.0-preview"
+        "Version": "23.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.6.0-preview\\lib\\net6.0-windows7.0\\UiPath.CodedWorkflows.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.CodedWorkflows.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.6.0-preview"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.codedworkflows\\23.8.0-preview"
     },
     {
       "Package": {
@@ -8963,44 +8459,6 @@
         "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.excel.activities\\2.22.0-preview\\lib\\net6.0-windows7.0\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.excel.activities\\2.22.0-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Form.Activities",
-        "Version": "1.9.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Callout.Activity.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Callout.Activity.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Callout.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.Activities.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.form.activities\\1.9.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.FormActivityLibrary",
-        "Version": "1.9.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib\\net5.0-windows7.0\\NamedPipeWrapper.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.ActivityLibrary.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.Host.Local.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.OutOfProcessUi.Common.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary\\1.9.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.FormActivityLibrary.Contracts",
-        "Version": "1.9.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.9.1\\lib\\net5.0-windows7.0\\UiPath.Form.ActivityLibrary.Contracts.dll"
-      ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.9.1"
     },
     {
       "Package": {
@@ -9092,25 +8550,37 @@
     },
     {
       "Package": {
-        "Id": "UiPath.OCR.Activities",
-        "Version": "3.16.1-preview"
+        "Id": "UiPath.MicrosoftDynamics.Activities",
+        "Version": "1.2.2-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Core.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftDynamics.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftDynamics.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftDynamics.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.16.1-preview"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.microsoftdynamics.activities\\1.2.2-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Activities",
+        "Version": "3.17.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Core.dll"
+      ],
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.14.0"
+        "Version": "2.15.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview"
     },
     {
       "Package": {
@@ -9196,49 +8666,50 @@
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "23.6.2-preview"
+        "Version": "23.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.2-preview"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities\\23.8.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities.Runtime",
-        "Version": "23.6.2-preview"
+        "Version": "23.8.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.Semantic.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.6.2-preview"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.8.0-preview"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "3.10.1"
+        "Version": "3.11.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.10.1"
+      "Path": "C:\\Users\\Madhuri\\.nuget\\packages\\uipath.vision\\3.11.0-preview"
     },
     {
       "Package": {

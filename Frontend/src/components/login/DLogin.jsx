@@ -14,6 +14,7 @@ import {
   Select,
   Textarea,
 } from "@mantine/core";
+
 //import dateFormat from 'dateformat';
 const DLogin = () => {
   const form = useForm({
@@ -61,83 +62,211 @@ const DLogin = () => {
   };
 
   return (
-    <Box
+    <Box className="min-w-full h-full flex flex-col justify-center items-center"
       component="form"
       maw={400}
-      mx="auto"
+      
       onSubmit={form.onSubmit(() => {})}
     >
-      <TextInput
+    <div className="flex items-center justify-between w-full ">
+      <TextInput className="w-[45%]"
         label="Name"
         placeholder="Name"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         }
+        })}
         {...form.getInputProps("Name")}
       />
-      <NumberInput
+      <NumberInput className="w-[45%]"
         label="Your age"
         placeholder="Your age"
         withAsterisk
-        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
         {...form.getInputProps("Age")}
       />
-      <NumberInput
+    </div>
+    <div className="flex items-center justify-between w-full">
+      <NumberInput className="w-[45%]"
         label="Phone Number"
         placeholder="Enter your phone number"
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
         {...form.getInputProps("Phoneno")}
       />
-      <Select
+      <TextInput className="w-[45%]"
+        label="Your email"
+        placeholder="Your email"
+        withAsterisk
+        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
+        {...form.getInputProps("Email")}
+      />
+    </div>
+    <div className="flex items-center justify-between w-full">
+      <Select className="w-full"
         data={["Male", "Female", "Prefer not to say"]}
         label="Gender"
         mt="md"
         placeholder="Click to choose"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
         {...form.getInputProps("Gender")}
       />
-      <TextInput
+    </div>
+    <div className="flex items-center justify-between w-full">
+       <Select className="w-[45%]"
+        data={["A+","A-","B+","B-","AB+","AB-","O+","O-"]}
         label="Blood Group"
-        placeholder="Blood Group"
         mt="md"
+        placeholder="Click to choose"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
         {...form.getInputProps("Bloodgroup")}
       />
-
-      <TextInput
-        label="Your email"
-        placeholder="Your email"
-        withAsterisk
+      <Select className="w-[45%]"
+        data={["Blood","Kidney","Lung","Liver","Bone Marrow and Stem Cells"]}
+        label="Type of donation"
         mt="md"
-        {...form.getInputProps("Email")}
+        placeholder="Click to choose"
+        withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
+        {...form.getInputProps("Type")}
       />
-      <Textarea
+      
+    </div>
+    <div className="flex items-center justify-between w-full" >
+      <Textarea className="w-full"
         placeholder="Address"
         label="Address"
         autosize
         minRows={2}
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+        })}
         {...form.getInputProps("Address")}
       />
-
-      <TextInput
-        label="Type of donation"
-        placeholder="Enter what do you want to donate"
-        withAsterisk
-        mt="md"
-        {...form.getInputProps("Type")}
-      />
-      <TextInput
+    </div> 
+    <div className="flex items-center justify-between w-full">
+      <TextInput className="w-full"
         label="Any Fatal Health Condition"
         placeholder="Enter any fatal health condition"
         description="(Please note that people with diabetes and asthama must avoid donation)"
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+        })}
         {...form.getInputProps("FatalHealth")}
       />
-      <Group position="right" mt="md">
-        <Button type="submit" onClick={handleSubmit}>Submit</Button>
-      </Group>
+    </div>  
+    
+
+        <Button type="submit" className="z-50 p-0 h-[50px] mt-[5%] w-[250px] bg-transparent border-3 border-solid border-red-800 hover:bg-gray-300 hover:text-black" onClick={handleSubmit}>Submit</Button>
+
+    
     </Box>
   );
 };

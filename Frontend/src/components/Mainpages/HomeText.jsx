@@ -20,8 +20,8 @@ const HomeText = () => {
           Life saver
         </p>
         <div className="flex w-[35%] mt-16 max-xl:w-[40%] max-lg:w-[50%] max-md:w-[60%] max-sm:w-[80%] max-[500px]:flex-col max-[500px]:gap-10 justify-between items-center">
-          <Cards text="Donate" />
-          <Cards text="Request" />
+          <Cards text="Donate"/>
+          <Cards text="Request"/>
         </div>
         {/* <Cards text="Donate" /> */}
       </div>
