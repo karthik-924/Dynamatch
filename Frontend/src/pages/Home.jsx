@@ -26,7 +26,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     setActive(params.get("active") || "Main");
-    setLoading(false);
+    setInterval(() => setLoading(false), 2000);
   }, [params]);
 
   // useEffect(() => {
@@ -78,7 +78,7 @@ const Home = () => {
                 <div className="rounded-full">
                   <BiSolidDonateBlood color="yellow" size={30} />
                 </div>
-                <p className="m-0 text-gray-400 font-sans">Donate life</p>
+                <p className="m-0 text-gray-400 font-sans">Your donation, big or small, makes a difference</p>
               </div>
             </div>
           </div>
