@@ -97,7 +97,7 @@ app.get('/getDonor/:id', async (req, res) => {
     }
 })
 
-app.post('/updateDonor/:id', async (req, res) => {
+app.put('/updateDonor/:id', async (req, res) => {
     var { Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, FatalHealth } = req.body;
     var query = `UPDATE Donors SET Name = '${Name}', Age = ${Age}, Phoneno = ${Phoneno}, Gender = '${Gender}', Bloodgroup = '${Bloodgroup}', Email = '${Email}', Address = '${Address}', Type = '${Type}', FatalHealth = '${FatalHealth}' WHERE id = ${id}`;
     try {
@@ -122,7 +122,7 @@ app.post('/updateDonor/:id', async (req, res) => {
     }
 })
 
-app.post('/deleteDonor/:id', async (req, res) => {
+app.delete('/deleteDonor/:id', async (req, res) => {
     var id = req.params.id;
     var query = `DELETE FROM Donors WHERE id = ${id}`;
     try {
