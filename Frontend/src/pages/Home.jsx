@@ -30,6 +30,8 @@ const Home = () => {
     "team",
     "donate",
     "request",
+    "Review",
+    "feedback",
   ];
   useEffect(() => {
     setLoading(true);
@@ -109,6 +111,8 @@ const Home = () => {
                 <Request />
               ) : active === "Review" ? (
                 <Review/>
+              ): active === "feedback" ? (
+                <Review/>
               ):(
                 <HomeText />
               )}
@@ -134,7 +138,7 @@ const Home = () => {
                       <IoIosArrowUp color="white" size={30} />
                     </div>
                   ) : null}
-                  {active !== "request" ? (
+                  {active !== "feedback" ? (
                     <div
                       onClick={() =>
                         navigate(`/?active=${pages[pages.indexOf(active) + 1]}`)

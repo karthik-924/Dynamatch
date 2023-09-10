@@ -200,6 +200,29 @@ const Navbar = (props) => {
             Review
           </p>
         </div>
+        <div
+          onClick={() => {
+            handleNavigation("/?active=feedback");
+          }}
+          className={`cursor-pointer pl-2 pr-1 flex gap-2 w-20 h-5 ${
+            active === "feedback"
+              ? "p-1 bg-gray-600 items-center rounded-l-lg"
+              : "items-center"
+          }`}
+        >
+          <div
+            className={`w-2 h-2 ${
+              active !== "feedback" ? "bg-gray-600" : "bg-white"
+            } rounded-full`}
+          ></div>
+          <p
+            className={`m-0 text-md text-white ${
+              active !== "feedback" ? "hidden" : "block"
+            }`}
+          >
+            Feedback
+          </p>
+        </div>
        
       </div>
     </div>
