@@ -115,7 +115,7 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="w-10 h-10 border border-white border-solid justify-center flex items-center">
-                  <IoIosArrowDown color="white" size={30} />
+                  <IoIosArrowDown color="white" size={30} onclick={Navbar} />
                 </div>
               </div>
             </div>
