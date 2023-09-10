@@ -26,7 +26,7 @@ const Recepients = () => {
       const data = await res.json();
       setDonors(data.recordset);
       console.log(data.recordset);
-      setLoading(false);
+      setInterval(() => setLoading(false), 2000);
     };
     getDonors();
   }, []);
@@ -76,7 +76,14 @@ const Recepients = () => {
                 >
                   <div className="w-[95%] h-full grid-cols-3 grid max-md:grid-cols-2 max-sm:grid-cols-2 gap-20">
                     {donors.map((donor, index) => {
-                      return <Card key={index} details={donor} page="Recepients" date={donor.Date} />;
+                      return (
+                        <Card
+                          key={index}
+                          details={donor}
+                          page="Recepients"
+                          date={donor.Date}
+                        />
+                      );
                     })}
                   </div>
                 </ScrollArea>

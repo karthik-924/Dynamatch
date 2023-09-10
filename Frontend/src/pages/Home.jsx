@@ -26,7 +26,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     setActive(params.get("active") || "Main");
-    setLoading(false);
+    setInterval(() => setLoading(false), 2000);
   }, [params]);
 
   // useEffect(() => {

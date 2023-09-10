@@ -26,7 +26,7 @@ const Donors = () => {
       const data = await res.json();
       setDonors(data.recordset);
       console.log(data.recordset);
-      setLoading(false);
+      setInterval(() => setLoading(false), 2000);
     };
     getDonors();
   }, []);
