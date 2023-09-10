@@ -9,8 +9,8 @@ import "./Team.css";
 import { Carousel } from "@mantine/carousel";
 
 const Team = () => {
-  const convenors = [Convenor1, Convenor2, Convenor3, Convenor4, Convenor5];
-  const WebTeam = [Convenor1, Convenor2, Convenor3];
+  const convenors = [Convenor1, Convenor2, Convenor3];
+  const WebTeam = [];
   const useStyles = createStyles(() => ({
     controls: {
       ref: getStylesRef("controls"),
