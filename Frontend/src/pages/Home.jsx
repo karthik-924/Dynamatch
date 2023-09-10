@@ -22,13 +22,20 @@ const Home = () => {
   const [active, setActive] = useState(params.get("active") || "Main");
   const navigate = useNavigate();
   console.log(params, active);
-  const pages = ["Main", "pages"];
+  const pages = [
+    "Main",
+    "details",
+    "facts",
+    "gallery",
+    "team",
+    "donate",
+    "request",
+  ];
   useEffect(() => {
     setLoading(true);
     setActive(params.get("active") || "Main");
     setInterval(() => setLoading(false), 2000);
   }, [params]);
-
   // useEffect(() => {
   //   // Function to handle wheel events (scrolling)
   //   const handleWheel = (event) => {
@@ -78,7 +85,9 @@ const Home = () => {
                 <div className="rounded-full">
                   <BiSolidDonateBlood color="yellow" size={30} />
                 </div>
-                <p className="m-0 text-gray-400 font-sans">Your donation, big or small, makes a difference</p>
+                <p className="m-0 text-gray-400 font-sans">
+                  Your donation, big or small, makes a difference
+                </p>
               </div>
             </div>
           </div>
@@ -112,8 +121,27 @@ const Home = () => {
                     Madhuri Devasani
                   </p>
                 </div>
-                <div className="w-10 h-10 border border-white border-solid justify-center flex items-center">
-                  <IoIosArrowDown color="white" size={30} />
+                <div className="flex flex-col">
+                  {active !== "Main" ? (
+                    <div
+                      onClick={() =>
+                        navigate(`/?active=${pages[pages.indexOf(active) - 1]}`)
+                      }
+                      className="cursor-pointer w-10 h-10 border border-white border-solid justify-center flex items-center"
+                    >
+                      <IoIosArrowUp color="white" size={30} />
+                    </div>
+                  ) : null}
+                  {active !== "request" ? (
+                    <div
+                      onClick={() =>
+                        navigate(`/?active=${pages[pages.indexOf(active) + 1]}`)
+                      }
+                      className="cursor-pointer w-10 h-10 border border-white border-solid justify-center flex items-center"
+                    >
+                      <IoIosArrowDown color="white" size={30} />
+                    </div>
+                  ) : null}
                 </div>
               </div>
             </div>
