@@ -100,9 +100,12 @@ app.post('/addDonor', async (req, res) => {
 //     }
 // })
 
-app.put('/updateDonor/:id', async (req, res) => {
-    var { Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, FatalHealth } = req.body;
-    var query = `UPDATE Donors SET Name = '${Name}', Age = ${Age}, Phoneno = ${Phoneno}, Gender = '${Gender}', Bloodgroup = '${Bloodgroup}', Email = '${Email}', Address = '${Address}', Type = '${Type}', FatalHealth = '${FatalHealth}' WHERE id = ${id}`;
+app.post('/updateDonor', async (req, res) => {
+    var { Name, Email, Type, Review, DonorEmail } = req.body;
+    if(Type!=="Blood")
+        var query = `UPDATE Donors SET requestFullfilled='True' WHERE email='${DonorEmail}'`;
+    
+    console.log(query);
     try {
         console.log("Trying to connect to database");
             let dbConn = await sql.connect(config);
@@ -231,9 +234,11 @@ app.post('/addRecipient', async (req, res) => {
 //     }
 // })
 
-app.post('/updateRecipient/:id', async (req, res) => {
-    var { Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, Date } = req.body;
-    var query = `UPDATE Donors SET Name = ${Name}, Age = ${Age}, Phoneno = ${Phoneno}, Gender = ${Gender}, Bloodgroup = ${Bloodgroup}, Email = ${Email}, Address = ${Address}, Type = ${Type}, Reason = ${Reason}, Date=${Date} WHERE id = ${id}`;
+app.post('/updateRecipient', async (req, res) => {
+    var { Name, Email, Type, Review, DonorEmail } = req.body;
+    var query = `UPDATE Recipients set Review = '${Review}' WHERE Email = '${Email}'`;
+    
+    console.log(query);
     try {
         console.log("Trying to connect to database");
             let dbConn = await sql.connect(config);
@@ -255,6 +260,31 @@ app.post('/updateRecipient/:id', async (req, res) => {
         console.log(error.message);
     }
 })
+
+app.get('/getReviews', async (req, res) => {
+    try {
+        console.log("Trying to connect to database");
+        let dbConn = await sql.connect(config);
+        console.log("Connected to database");
+        var request = new sql.Request(dbConn);
+        request.query("Select * from Recipients where Review is not null", function (err, recordset) {
+            if (err) {
+                res.status(500);
+                console.log(err);
+                dbConn.close();
+            }
+            else {
+                res.status(200);
+                res.send(recordset);
+                dbConn.close();
+            }
+        });
+    }
+    catch (error) {
+        console.log(error.message);
+    }
+})
+
 
 app.post('/deleteRecipient/:id', async (req, res) => {
     var id = req.params.id;

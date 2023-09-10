@@ -17,8 +17,8 @@ const Gallery = () => {
           alt="facts"
         />
       </div>
-      <div className="flex w-full gap-10 justify-center">
-        <div className="flex gap-16 flex-col w-[80%]">
+      <div className="flex w-full gap-4 justify-center">
+        <div className="flex gap-4 flex-col w-[80%]">
           <p className="btn-shine text-3xl font-bold max-md:text-xl max-sm:text-lg font-sans text-white m-0">
             Gallery
           </p>

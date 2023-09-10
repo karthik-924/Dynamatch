@@ -16,6 +16,7 @@ import Team from "../components/Mainpages/Team";
 import Donation from "../components/Mainpages/Donation";
 import Request from "../components/Mainpages/Request";
 import Review from "../components/Mainpages/Review";
+import Feedbacks from "../components/Mainpages/Feedbacks";
 const Home = () => {
   const [loading, setLoading] = useState(true);
   const [params, setParams] = useSearchParams();
@@ -31,7 +32,7 @@ const Home = () => {
     "donate",
     "request",
     "Review",
-    "feedback",
+    "feedbacks",
   ];
   useEffect(() => {
     setLoading(true);
@@ -111,8 +112,8 @@ const Home = () => {
                 <Request />
               ) : active === "Review" ? (
                 <Review/>
-              ): active === "feedback" ? (
-                <Review/>
+              ): active === "feedbacks" ? (
+                <Feedbacks/>
               ):(
                 <HomeText />
               )}

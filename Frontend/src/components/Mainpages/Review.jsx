@@ -21,30 +21,41 @@ const Review = () => {
     initialValues: {
       Name: "",
       Email: "",
+        DonorEmail: "",
       Type: "",
       Review:"",
-      Donor_confirm:""
     },
      validate: {
       Name: hasLength({ min: 2 }, "Name must be 2-10 characters long"),
-      Email: isEmail("Enter a valid email"),
-      Bloodgroup: isNotEmpty("Blood Group is required"),
-      Type: isNotEmpty("Donation field is required"),
+       Email: isEmail("Enter a valid email"),
+      DonorEmail : isEmail("Enter a valid email"),
+      Type: isNotEmpty("Type is required"),
+      Review: isNotEmpty("Review is required"),
     },
   });
     const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(form.values)
-    fetch("http://localhost:4000/addRecipient", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form.values),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        
-      });
+      console.log(form.values)
+      if (form.values.Type !== "Blood") {
+        fetch("http://localhost:4000/updateDonor", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form.values),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+          });
+      }
+      fetch("http://localhost:4000/updateRecipient", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form.values),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+        });
   };
   return (
     <div className="w-full min-h-full relative flex justify-center items-center">
@@ -58,7 +69,7 @@ const Review = () => {
       onSubmit={form.onSubmit(() => {})}
     >
     <div className="flex items-center justify-center w-full ">
-    <TextInput className="w-[45%]"
+    <TextInput className="w-[45%] max-md:w-[60%] max-sm:w-[80%]"
         label="Recipient"
         placeholder="Enter your Name"
         mt="md"
@@ -77,7 +88,7 @@ const Review = () => {
     />
     </div>
     <div className="flex items-center justify-center w-full ">
-    <TextInput className="w-[45%]"
+    <TextInput className="w-[45%] max-md:w-[60%] max-sm:w-[80%]"
         label="Email"
         placeholder="Enter your Email id"
         mt="md"
@@ -94,13 +105,12 @@ const Review = () => {
         })}
         {...form.getInputProps("Email")}
     />
-    </div>
-    <div className="flex items-center justify-center w-full">
-      <Select className="w-[45%]"
-        data={["Yes","No"]}
-        label="Donation Confirmation"
+          </div>
+          <div className="flex items-center justify-center w-full ">
+    <TextInput className="w-[45%] max-md:w-[60%] max-sm:w-[80%]"
+        label="DonorEmail"
+        placeholder="Enter Donors Email id"
         mt="md"
-        placeholder="Click to choose"
         withAsterisk
         styles={() => ({
          input:{
@@ -110,17 +120,13 @@ const Review = () => {
          label:{
          color:"white",
          fontSize:"18px"
-         },
-         rightSection:{
-          backgroundColor:"white",
-          color:"black"
-         },
+         }
         })}
-        {...form.getInputProps("Donor_confirm")}
-      />
+        {...form.getInputProps("DonorEmail")}
+    />
     </div>
     <div className="flex items-center justify-center w-full ">
-    <Select className="w-[45%]"
+    <Select className="w-[45%] max-md:w-[60%] max-sm:w-[80%]"
         data={["Blood","Kidney","Lung","Liver","Bone Marrow and Stem Cells"]}
         label="Type of Donation Recieved"
         description="(Please note that people who recieved donation only fill the type of donation)"
@@ -145,9 +151,9 @@ const Review = () => {
       /> 
     </div>
     <div className="flex items-center justify-center w-full ">
-    <Textarea className="w-[45%]"
+    <Textarea className="w-[45%] max-md:w-[60%] max-sm:w-[80%]"
         label="Review"
-        placeholder="Enter any suggestions or remarks"
+        placeholder="Enter your reviews"
         mt="md"
         minRows={3}
         withAsterisk
