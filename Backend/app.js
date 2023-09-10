@@ -13,7 +13,8 @@ var config = {
     database: 'uipath',
     port: 1433,
     options: {
-        "encrypt": false
+        "encrypt": false,
+        trustedConnection: true
     }
 };
 sql.on('error', err => {
@@ -33,11 +34,13 @@ app.get('/getDonors', async(req, res) => {
             request.query("Select * from Donors", function (err, recordset) {
                 if (err) {
                     console.log(err);
+                    res.status(500);
                     dbConn.close();
                 }
                 else {
-                    res.send(recordset);
+                    // res.send(recordset);
                     dbConn.close();
+                    res.status(200);
                     res.send(recordset);
                 }
             });
@@ -62,9 +65,9 @@ app.post('/addDonor', async (req, res) => {
                     dbConn.close();
                 }
                 else {
+                    res.status(200);
                     res.send({success: true, message: "Donor added successfully"});
                     dbConn.close();
-                    res.send(recordset);
                 }
             });
     }
@@ -73,29 +76,29 @@ app.post('/addDonor', async (req, res) => {
     }
 })
 
-app.get('/getDonor/:id', async (req, res) => {
-    var id = req.params.id;
-    var query = `SELECT * FROM Donors WHERE id=${id};`
-    try {
-        console.log("Trying to connect to database");
-            let dbConn = await sql.connect(config);
-            console.log("Connected to database");
-            var request = new sql.Request(dbConn);
-            request.query(query, function (err, recordset) {
-                if (err) {
-                    console.log(err);
-                    dbConn.close();
-                }
-                else {
-                    res.send(recordset);
-                    dbConn.close();
-                }
-            });
-    }
-    catch (error) {
-        console.log(error.message);
-    }
-})
+// app.get('/getDonor/:id', async (req, res) => {
+//     var id = req.params.id;
+//     var query = `SELECT * FROM Donors WHERE id=${id};`
+//     try {
+//         console.log("Trying to connect to database");
+//             let dbConn = await sql.connect(config);
+//             console.log("Connected to database");
+//             var request = new sql.Request(dbConn);
+//             request.query(query, function (err, recordset) {
+//                 if (err) {
+//                     console.log(err);
+//                     dbConn.close();
+//                 }
+//                 else {
+//                     res.send(recordset);
+//                     dbConn.close();
+//                 }
+//             });
+//     }
+//     catch (error) {
+//         console.log(error.message);
+//     }
+// })
 
 app.put('/updateDonor/:id', async (req, res) => {
     var { Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, FatalHealth } = req.body;
@@ -113,7 +116,7 @@ app.put('/updateDonor/:id', async (req, res) => {
                 else {
                     res.send({success: true, message: "Donor updated successfully"});
                     dbConn.close();
-                    res.send(recordset);
+                    // res.send(recordset);
                 }
             });
     }
@@ -138,7 +141,7 @@ app.delete('/deleteDonor/:id', async (req, res) => {
                 else {
                     res.send({success: true, message: "Donor deleted successfully"});
                     dbConn.close();
-                    res.send(recordset);
+                    // res.send(recordset);
                 }
             });
     }
@@ -155,10 +158,12 @@ app.get('/getRecipients', async (req, res) => {
             var request = new sql.Request(dbConn);
             request.query("Select * from Recipients", function (err, recordset) {
                 if (err) {
+                    res.status(500);
                     console.log(err);
                     dbConn.close();
                 }
                 else {
+                    res.status(200);
                     res.send(recordset);
                     dbConn.close();
                 }
@@ -193,7 +198,7 @@ app.post('/addRecipient', async (req, res) => {
                     res.status(200);
                     res.send({success: true, message: "Recipient added successfully"});
                     dbConn.close();
-                    res.send(recordset);
+                    // res.send(recordset);
                 }
             });
     }
@@ -202,29 +207,29 @@ app.post('/addRecipient', async (req, res) => {
     }
 })
 
-app.get('/getRecipient/:id', async (req, res) => {
-    var id = req.params.id;
-    var query = `SELECT * FROM Recipients WHERE id=${id};`
-    try {
-        console.log("Trying to connect to database");
-            let dbConn = await sql.connect(config);
-            console.log("Connected to database");
-            var request = new sql.Request(dbConn);
-            request.query(query, function (err, recordset) {
-                if (err) {
-                    console.log(err);
-                    dbConn.close();
-                }
-                else {
-                    res.send(recordset);
-                    dbConn.close();
-                }
-            });
-    }
-    catch (error) {
-        console.log(error.message);
-    }
-})
+// app.get('/getRecipient/:id', async (req, res) => {
+//     var id = req.params.id;
+//     var query = `SELECT * FROM Recipients WHERE id=${id};`
+//     try {
+//         console.log("Trying to connect to database");
+//             let dbConn = await sql.connect(config);
+//             console.log("Connected to database");
+//             var request = new sql.Request(dbConn);
+//             request.query(query, function (err, recordset) {
+//                 if (err) {
+//                     console.log(err);
+//                     dbConn.close();
+//                 }
+//                 else {
+//                     res.send(recordset);
+//                     dbConn.close();
+//                 }
+//             });
+//     }
+//     catch (error) {
+//         console.log(error.message);
+//     }
+// })
 
 app.post('/updateRecipient/:id', async (req, res) => {
     var { Name, Age, Phoneno, Gender, Bloodgroup, Email, Address, Type, Reason, Date } = req.body;
@@ -242,7 +247,7 @@ app.post('/updateRecipient/:id', async (req, res) => {
                 else {
                     res.send({success: true, message: "Donor updated successfully"});
                     dbConn.close();
-                    res.send(recordset);
+                    // res.send(recordset);
                 }
             });
     }
@@ -267,7 +272,7 @@ app.post('/deleteRecipient/:id', async (req, res) => {
                 else {
                     res.send({success: true, message: "Recipient deleted successfully"});
                     dbConn.close();
-                    res.send(recordset);
+                    // res.send(recordset);
                 }
             });
     }
