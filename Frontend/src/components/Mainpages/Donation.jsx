@@ -1,5 +1,6 @@
 import React from "react";
 import Wave from "../../assets/Wave.png";
+import Donor from "../login/DLogin";
 
 const Donation = () => {
   return (
@@ -8,8 +9,13 @@ const Donation = () => {
         <div className="w-full absolute h-full justify-center items-center flex">
           <img className="w-full opacity-30" src={Wave} alt="Wave" />
         </div>
+      <div className="w-[70%] h-full flex justify-center items-center">
+       <Donor/>
       </div>
     </div>
+     
+    </div>
+  
   );
 };
 
