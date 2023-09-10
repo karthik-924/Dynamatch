@@ -64,74 +64,168 @@ const RLogin = () => {
   };
 
   return (
-    <Box
+    <Box className="min-w-full h-full flex flex-col justify-center items-center"
       component="form"
       maw={400}
-      mx="auto"
       onSubmit={form.onSubmit(() => {})}
     >
-      <TextInput
+      <div className="flex items-center justify-between w-full ">
+      <TextInput className="w-[45%]"
         label="Name"
         placeholder="Name"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         }
+        })}
         {...form.getInputProps("Name")}
       />
-      <NumberInput
+      <NumberInput className="w-[45%]"
         label="Your age"
         placeholder="Your age"
         withAsterisk
-        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
         {...form.getInputProps("Age")}
       />
-      <NumberInput
+    </div>
+    <div className="flex items-center justify-between w-full">
+      <NumberInput className="w-[45%]"
         label="Phone Number"
         placeholder="Enter your phone number"
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
         {...form.getInputProps("Phoneno")}
       />
-      <Select
+      <TextInput className="w-[45%]"
+        label="Your email"
+        placeholder="Your email"
+        withAsterisk
+        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         }
+        })}
+        {...form.getInputProps("Email")}
+      />
+    </div>
+     
+     <div className="flex items-center justify-between w-full">
+      <Select className="w-full"
         data={["Male", "Female", "Prefer not to say"]}
         label="Gender"
         mt="md"
         placeholder="Click to choose"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
         {...form.getInputProps("Gender")}
       />
-      <TextInput
+    </div>
+    
+    <div className="flex items-center justify-between w-full">
+       <Select className="w-[45%]"
+        data={["A+","A-","B+","B-","AB+","AB-","O+","O-"]}
         label="Blood Group"
-        placeholder="Blood Group"
         mt="md"
+        placeholder="Click to choose"
         withAsterisk
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
         {...form.getInputProps("Bloodgroup")}
       />
-
-      <TextInput
-        label="Your email"
-        placeholder="Your email"
-        withAsterisk
+    
+      <Select className="w-[45%]"
+        data={["Blood","Kidney","Lung","Liver","Bone Marrow and Stem Cells"]}
+        label="Type of donation"
         mt="md"
-        {...form.getInputProps("Email")}
-      />
-      <Textarea
-        label="Location"
-        placeholder="Enter hospital address"
-        autosize
-        minRows={2}
+        placeholder="Click to choose"
         withAsterisk
-        mt="md"
-        {...form.getInputProps("Address")}
-      />
-
-      <TextInput
-        label="Requirement"
-        placeholder="Enter requirement"
-        withAsterisk
-        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+         rightSection:{
+          backgroundColor:"white",
+          color:"black"
+         },
+        })}
         {...form.getInputProps("Type")}
-      />
-
-      <DateTimePicker
+      /> 
+      </div>
+      <div className="flex items-center justify-between w-full">
+     <DateTimePicker className="w-full"
         
         label="Deadline for request"
         placeholder="Pick date and time"
@@ -139,21 +233,64 @@ const RLogin = () => {
         mx="auto"
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+        })}
         {...form.getInputProps("DeadlineDate")}
       />
-
-      <Textarea
+      </div>
+    <div className="flex items-center justify-between w-full">
+      <Textarea className="w-full"
+        label="Location"
+        placeholder="Enter hospital address"
+        autosize
+        minRows={1}
+        withAsterisk
+        mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+        })}
+        {...form.getInputProps("Address")}
+      />
+    </div>  
+      
+    <div className="flex items-center justify-between w-full">
+      <Textarea className="w-full"
         label="Reason for requirement"
         placeholder="Enter reason for requirement"
         autosize
         minRows={2}
         withAsterisk
         mt="md"
+        styles={() => ({
+         input:{
+          backgroundColor:"transparent",
+          color:"white"
+         },
+         label:{
+         color:"white",
+         fontSize:"18px"
+         },
+        })}
         {...form.getInputProps("Reason")}
       />
-      <Group position="right" mt="md">
-        <Button type="submit" onClick={handleSubmit}>Submit</Button>
-      </Group>
+      </div>
+       <Button type="submit" className="z-50 p-0 h-[50px] mt-[2%] w-[250px] bg-transparent border-3 border-solid border-red-800 hover:bg-gray-300 hover:text-black" onClick={handleSubmit}>Submit</Button>
+   
     </Box>
   );
 };

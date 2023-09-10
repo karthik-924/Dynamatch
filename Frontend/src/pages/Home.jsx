@@ -15,7 +15,7 @@ import Gallery from "../components/Mainpages/Gallery";
 import Team from "../components/Mainpages/Team";
 import Donation from "../components/Mainpages/Donation";
 import Request from "../components/Mainpages/Request";
-
+import Review from "../components/Mainpages/Review";
 const Home = () => {
   const [loading, setLoading] = useState(true);
   const [params, setParams] = useSearchParams();
@@ -107,7 +107,9 @@ const Home = () => {
                 <Donation />
               ) : active === "request" ? (
                 <Request />
-              ) : (
+              ) : active === "Review" ? (
+                <Review/>
+              ):(
                 <HomeText />
               )}
             </div>
