@@ -55,6 +55,7 @@ const Review = () => {
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
+          form.reset();
         });
   };
   return (

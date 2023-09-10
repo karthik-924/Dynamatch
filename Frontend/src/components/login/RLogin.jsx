@@ -59,6 +59,7 @@ const RLogin = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
+        form.reset();
         alert("Request added successfully");
       });
   };
