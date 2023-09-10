@@ -1,8 +1,8 @@
 import React from "react";
 import { createStyles, getStylesRef } from "@mantine/core";
-import Convenor1 from "../../assets/Convenor1.jpg";
-import Convenor2 from "../../assets/Convenor2.jpg";
-import Convenor3 from "../../assets/Convenor3.jpg";
+import Convenor1 from "../../assets/Convenor33.jpg";
+import Convenor2 from "../../assets/Convenor22.jpg";
+import Convenor3 from "../../assets/Convenor11.jpg";
 import Convenor4 from "../../assets/Convenor4.jpg";
 import Convenor5 from "../../assets/Convenor5.jpg";
 import "./Team.css";

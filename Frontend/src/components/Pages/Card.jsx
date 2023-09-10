@@ -5,9 +5,9 @@ import { useNavigate } from "react-router-dom";
 const Card = (props) => {
   const { text, image, description } = props;
   console.log(props);
-  
+  const navigate = useNavigate();
   return (
-    <div className="flip-card" >
+    <div className="flip-card cursor-pointer" onClick={()=>navigate(`${text==="Donors"?'/donors':'recepients'}`)}>
       <div className="flip-card-inner max-lg:w-[250px] max-lg:h-[250px] max-sm:w-[220px] max-sm:h-[220px]">
         <div className="flip-card-front rounded-md max-lg:w-[250px] max-lg:h-[250px] max-sm:w-[220px] max-sm:h-[220px]">
           <img
