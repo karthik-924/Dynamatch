@@ -56,7 +56,7 @@ const Card = (props) => {
   };
   return (
     <div className="w-full justify-center items-center p-5 h-fit rounded-lg relative flex flex-col bg-white font-sans">
-      <div className=" border-t-8 absolute top-0 border-r-0 border-l-0 border-b-0 w-full border-yellow-500 rounded-t-lg border-solid"></div>
+      <div className=" border-t-8 absolute top-0 border-r-0 border-l-0 border-b-0 w-full border-red-600 rounded-t-lg border-solid"></div>
       <div className="w-full flex justify-between items-center mb-4">
         <div className="flex flex-col">
           <p className="text-xl font-semibold m-0 mb-1 mt-2">{Name}</p>

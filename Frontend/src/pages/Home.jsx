@@ -128,7 +128,7 @@ const Home = () => {
                     Madhuri Devasani
                   </p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex">
                   {active !== "Main" ? (
                     <div
                       onClick={() =>
